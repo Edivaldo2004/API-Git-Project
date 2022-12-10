@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>API GITHUB</title>
+</head>
+<body>
+    <div class="container">
+        
+      <h3 class="titulo2">Sua Localização é:</h3>
+        
+      <div class="botao-busca">
+            <div class="botao">
+                <input type="text" id="local" placeholder="Pesquise por um Estado!">
+              <div class="btn" onclick="localidade()">
+                <a>Buscar</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="mapouter">
+              <iframe 
+                 id="mapa" 
+                 frameborder="0" 
+                 scrolling="no" 
+                 marginheight="0" 
+                 marginwidth="0"
+                 src="https://maps.google.com/maps?q=25.3076008,51.4803216&z=16&output=embed">
+              </iframe>
+            </div>
+
+            <div class="botao" id="localizacao">
+              <div class="btn"><a>Capturar Localização (Clique 2X)</a></div>
+            </div>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
