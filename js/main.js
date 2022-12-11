@@ -43,7 +43,7 @@ capturarLocalizacao.addEventListener('click', () => {
 
 function localidade() {
 
-    const local = document.getElementById("local").ariaValueMax;
+    const localidade = document.getElementById("local").value;
 
-    map.src = "https://maps.google.com/maps?q=" + localidade + "=16&output=embed";
+    map.src = "https://maps.google.com/maps?q=" + localidade + "=0&output=embed";
 }
