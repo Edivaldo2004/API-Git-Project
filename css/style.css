@@ -91,7 +91,6 @@ button.btn:hover::after {
     width: 100%;
     padding: 1em;
     text-align: center;
-    margin-top: 1%;
 }
 
 #mapa{

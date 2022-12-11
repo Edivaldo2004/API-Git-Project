@@ -1,0 +1,44 @@
+@media screen and (max-width: 800px) {
+
+
+    button.bti:hover::before,
+    button.btn:hover::after {
+    top: 0;
+    height: 0%;
+    width: 0%;
+    border-radius: 12px;
+    animation: none;
+}
+    .mapouter {
+        box-sizing: border-box;
+        width: 100%;
+        padding: 1em;
+        text-align: center;
+        margin-top: 1%;
+    }
+    
+    #mapa{
+        width: 98%;
+        height: 400px;
+    }
+
+    .botao-busca{
+        margin-top: 18%;
+    }
+    
+    input{
+        text-align: center;
+        border-radius: 8px;
+        height: 38px;
+        width: 50%;
+    }
+    
+    .botao {
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        text-align: center;
+        justify-content: center;
+        margin-top: -2%;
+    }
+}
